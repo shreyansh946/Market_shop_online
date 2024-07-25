@@ -1,0 +1,90 @@
+{
+  "seller": [
+    {
+      "name": "tony",
+      "password": "12345",
+      "Email": "tony@gmail.com",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "iphone",
+      "price": "700000",
+      "Category": "mobile",
+      "color": "white",
+      "image": "https://m-cdn.phonearena.com/images/review/5440-wide-two_1200/Apple-iPhone-14-Pro-vs-iPhone-14-one-is-new-the-other-is-not.jpg",
+      "description": "this is good",
+      "id": 1
+    },
+    {
+      "name": "iphone fake",
+      "price": "323223",
+      "Category": "mobile",
+      "color": "blue",
+      "image": "https://m-cdn.phonearena.com/images/review/5440-wide-two_1200/Apple-iPhone-14-Pro-vs-iPhone-14-one-is-new-the-other-is-not.jpg",
+      "description": "this is nice",
+      "id": 2
+    },
+    {
+      "name": "BUNNY TOY",
+      "price": "100",
+      "Category": "BEAR",
+      "color": "WHITE",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20210618/hjXf/60cb99b6f997ddb312cf59b0/-473Wx593H-4918987890-multi-MODEL.jpg",
+      "description": "THIS IS GOD TOY FOR BABY",
+      "id": 3
+    },
+    {
+      "name": "BLUE SHARK",
+      "price": "150",
+      "Category": "TOY",
+      "color": "blue",
+      "image": "https://www.ikea.com/in/en/images/products/blavingad-soft-toy-blue-whale__1107939_pe869237_s5.jpg?f=s",
+      "description": "SMALL BABY SHARK",
+      "id": 4
+    },
+    {
+      "name": "DOREMON",
+      "price": "500",
+      "Category": "TOY",
+      "color": "BLUE",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSJHKSoMrDtVz8OWXprVfrneR_NCjO4CfeIA&usqp=CAU",
+      "description": "M HU DOREMON OR MUJHE DORA CAKE BHT PASAND HAI",
+      "id": 5
+    }
+  ],
+  "user": [
+    {
+      "name": "shreyansh",
+      "email": "shreyansh@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "peter",
+      "email": "peter@gmail.com",
+      "password": "12345",
+      "id": 2
+    }
+  ],
+  "cart": [],
+  "order": [
+    {
+      "email": "peter@gmail.com",
+      "address": "1398/15 krishna colony, chanchal wali gali",
+      "contact": "998999999",
+      "TotalPrice": 2800850,
+      "userid": 2,
+      "id": 1
+    },
+    {
+      "email": "peter@gmail.com",
+      "address": "1398/15 krishna colony, chanchal wali gali",
+      "contact": "96597676565",
+      "TotalPrice": 323323,
+      "userid": 2,
+      "id": 3
+    }
+  ]
+}
