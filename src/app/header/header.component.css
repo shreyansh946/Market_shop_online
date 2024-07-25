@@ -1,0 +1,89 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.nav h1{
+        color: blueviolet;
+        margin: 0;
+        font-size: 40px;
+}
+
+.nav ul
+{
+  
+        display: inline-flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+
+
+.nav ul li
+{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.nav ul a{
+    text-decoration: none;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.nav .nav-search{
+    margin-top: 5px;
+    flex: 1;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.nav .nav-search input {
+
+    flex: 1;
+    color: blueviolet;
+    border: blueviolet 1px solid;
+    border-right: none;
+    height: 38px;
+
+}
+
+
+.nav .nav-search button {
+
+    color: blueviolet;
+    border: blueviolet 1px solid;
+    border-left: 0px;
+    height: 38.5px;
+
+}
+h1 a{
+    color: blueviolet;
+    text-decoration: none;
+    
+}
+
+.suggested-result
+{   
+    position: absolute;
+    display: list-item !important;
+    z-index: 10;
+    background-color: #ffff;
+    top: 40px;
+    width: 300px;
+    border: 1px solid #ddd;
+
+}
+
+.suggested-result li{
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.suggested-result li a{
+    cursor: pointer;
+    color: blueviolet; 
+}
